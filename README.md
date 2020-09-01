@@ -4,7 +4,7 @@ The code on this repository allows the user to analyze the permissions of an and
 **Extracting the permissions list and comparing against different apk versions of
 the same application** to get a global view about the permissions used over the time in different versions of the application.
 
-# Prerequisites
+# Pre-requirement
 
 
 - You need to have [apktool](https://ibotpeaches.github.io/Apktool/]) or another tool to decompile the apk's

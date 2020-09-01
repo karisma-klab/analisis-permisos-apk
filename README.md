@@ -36,7 +36,7 @@ We have already downloaded the apk versions that we want to analyze to the follo
 ```
 So we modify the bash script `apk_coordinator.sh` with the following values:
 ```
-declare -a arr=("v1.1.0" "v1.2.36" "v1.2.51" "v1.2.5" "v1.2.6" "v1.2.8" "v1.2.9")
+declare -a arr=("v2.0.5" "v2.0.7" "v2.1.2")
 download_path="<full_path>/../Downloads/"
 project_name="gamma101"
 sink_folder="/../Documents../../Project001"

@@ -48,9 +48,6 @@ class APKAnalyzer():
             -------- v1.0.1
                              ...
 
-        Returns:
-            permission_list: A list containing the list of permissions of an
-            application descriptor.
         """
         versions = sorted(versions, key=LooseVersion)
         root_path = os.path.join(root_dir, apk_name)
